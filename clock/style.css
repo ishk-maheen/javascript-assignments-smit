@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: #D5DDE0;
+}
+.container{
+    border: 30px solid #272E38;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.container h1{
+    margin-bottom: 20px;
+}
+.container span{
+    font-size: 30px;
+    color: #D5DDE0;
+}
+.main h2{
+    margin-top: 30px;
+
+}
